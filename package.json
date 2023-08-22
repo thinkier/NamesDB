@@ -1,0 +1,22 @@
+{
+  "name": "namesdb",
+  "version": "0.0.1",
+  "description": "Database of popular anglo names sorted by popularity",
+  "main": "index.ts",
+  "scripts": {
+    "gen": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.5.2",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2",
+    "sqlite": "^5.0.1",
+    "sqlite3": "^5.1.6"
+  }
+}
