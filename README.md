@@ -21,7 +21,7 @@ List of popular first names and surnames in the US, ordered by popularity.
 | `male`         | BOOLEAN | Whether the name is given to boys                                                 |
 | `female`       | BOOLEAN | Whether the name is given to girls                                                |
 
-- &ast;Note: The `male` and `female` fields are derived from their appearance in the top 200 of the decade. eg. "Max" can is not a popular girl's name but it may be given to girls.
+- &ast;Note: The `male` and `female` fields are derived from their appearance in the top 200 of the decade. eg. "Max" is not a popular girl's name, but it may be given to girls.
 
 # Methodology
 
