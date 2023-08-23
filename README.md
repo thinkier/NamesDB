@@ -13,12 +13,12 @@ List of popular first names and surnames in the US, ordered by popularity.
 
 ## `firstnames`
 
-| Column Name  | Type    | Description                                 |
-|--------------|---------|---------------------------------------------|
-| `name`       | TEXT    | The first name                              |
-| `occurrence` | INT     | The total occurrences of the name in the US |
-| `male`       | BOOLEAN | Whether the name is given to boys           |
-| `female`     | BOOLEAN | Whether the name is given to girls          |
+| Column Name         | Type | Description                                 |
+|---------------------|------|---------------------------------------------|
+| `name`              | TEXT | The first name                              |
+| `occurrence`        | INT  | The total occurrences of the name in the US |
+| `male_occurrence`   | INT  | How many times the name is given to boys.   |
+| `female_occurrence` | INT  | How many times the name is given to girls.  |
 
 # Methodology
 
