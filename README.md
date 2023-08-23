@@ -26,7 +26,7 @@ List of popular first names and surnames in the US, ordered by popularity.
 
 ### By Popularity
 
-#### Downwnloadable data source
+#### Downloadable data source
 
 The US national data partitioned by birth year can be downloaded here: https://www.ssa.gov/oact/babynames/limits.html
 
