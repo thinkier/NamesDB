@@ -4,24 +4,21 @@ List of popular first names and surnames in the US, ordered by popularity.
 
 # SQLite Schema
 
-## `surname`
+## `surnames`
 
-| Column Name  | Type | Description                                  |
-|--------------|------|----------------------------------------------|
-| `name`       | TEXT | The last name                                |
-| `popularity` | INT  | The popularity of the name in the US by rank |
+| Column Name  | Type | Description                                 |
+|--------------|------|---------------------------------------------|
+| `name`       | TEXT | The last name                               |
+| `occurrence` | INT  | The total occurrences of the name in the US |
 
-## `firstname`
+## `firstnames`
 
-| Column Name    | Type    | Description                                                                       |
-|----------------|---------|-----------------------------------------------------------------------------------|
-| `name`         | TEXT    | The first name                                                                    |
-| `popularity`   | INT     | The popularity of the name in the US by rank                                      |
-| `birth_decade` | INT     | The decade of the name popularity data / birth of the people with the given name. |
-| `male`         | BOOLEAN | Whether the name is given to boys                                                 |
-| `female`       | BOOLEAN | Whether the name is given to girls                                                |
-
-- &ast;Note: The `male` and `female` fields are derived from their appearance in the top 200 of the decade. eg. "Max" is not a popular girl's name, but it may be given to girls.
+| Column Name  | Type    | Description                                 |
+|--------------|---------|---------------------------------------------|
+| `name`       | TEXT    | The first name                              |
+| `occurrence` | INT     | The total occurrences of the name in the US |
+| `male`       | BOOLEAN | Whether the name is given to boys           |
+| `female`     | BOOLEAN | Whether the name is given to girls          |
 
 # Methodology
 
@@ -29,9 +26,15 @@ List of popular first names and surnames in the US, ordered by popularity.
 
 ### By Popularity
 
+#### Downwnloadable data source
+
+The US national data partitioned by birth year can be downloaded here: https://www.ssa.gov/oact/babynames/limits.html
+
+#### Scraping method (superseded, see above)
+
 Data aggregated from scraping the website of the US Social Security Administration (Public Domain)
 
-- https://www.ssa.gov/OACT/babynames/decades/names1940s.html
+- https://www.ssa.gov/OACT/babynames/decades/names1950s.html
 - ...
 - https://www.ssa.gov/OACT/babynames/decades/names2010s.html
 

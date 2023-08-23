@@ -4,7 +4,7 @@
   "description": "Database of popular anglo names sorted by popularity",
   "main": "firstnames.ts",
   "scripts": {
-    "gen": "ts-node firstnames.ts"
+    "gen": "ts-node index.ts"
   },
   "author": "",
   "license": "MIT",
